@@ -1,1 +1,3 @@
-# testing-hugo-image-processing
+# Testing Hugo Image Processing
+
+...and page resources/bundles/etc...

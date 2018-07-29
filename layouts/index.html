@@ -1,0 +1,14 @@
+{{ define "main" }}
+{{ $home := $.Site.GetPage "/"}}
+{{ $img := $home.Resources.GetMatch "*favicon*"}}
+<h3>$home = {{$home}}</h3>
+<h3>$img = {{$img}}</h3>
+<hr>
+{{ $favpage := .Site.GetPage "/favicon" }}
+{{ $imgGetMatch := $favpage.Resources.GetMatch "favicon" }}
+{{ $imgMatch := $favpage.Resources.Match "favicon" }}
+<h3>$favpage = {{$favpage}}</h3>
+<h3>$imgGetMatch = {{$imgGetMatch}}</h3>
+<h3>$imgMatch = {{$imgMatch}}</h3>
+
+{{ end }}
