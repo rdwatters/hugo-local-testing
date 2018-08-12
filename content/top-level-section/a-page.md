@@ -1,5 +1,6 @@
 ---
-title: This is a page
+title: A Page Title in Top Level Section
+subtitle: A Page Subtitle in Top Level Section
 date: 2018-07-25
 publishdate: 2018-07-25
 lastmod: 2018-07-25

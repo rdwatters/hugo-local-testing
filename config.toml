@@ -1,7 +1,7 @@
 baseURL = ""
 languageCode = "en-us"
 title = "My New Hugo Site"
-disableKinds = ["taxonomy","taxonomyTerms"]
+disableKinds = ["taxonomy", "taxonomyTerm"]
 
 [frontmatter]
     date = ["date","publishDate", "lastmod"]
@@ -15,10 +15,9 @@ disableKinds = ["taxonomy","taxonomyTerms"]
     appbackgroundcolor = "#ffffff"
     msapptilecolor = "#da532c"
 
-[taxonomies]
-  category = ""
-  series = "series"
-  tag = ""
+# [taxonomies]
+#   category = ""
+#   tag = ""
 
 # [mediaTypes]
 #     [mediaTypes."text/webmanifest"]

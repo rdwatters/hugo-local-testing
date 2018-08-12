@@ -1,3 +1,1 @@
-# Testing Hugo Image Processing
-
-...and page resources/bundles/etc...
+# Generic Repo for Testing Hugo Features, etc.

@@ -6,7 +6,7 @@
 
 <ul>
     {{range .Site.Pages }}
-    <li><a href="{{.Permalink}}">{{.Title}}</a></li>
+    <li><a href="{{.Permalink}}">{{with .Title}}{{.}}{{else}}No Title Set{{end}}</a></li>
     {{ end }}
 </ul>
 {{ end }}
