@@ -1,3 +1,37 @@
-baseURL = "http://example.org/"
+baseURL = ""
 languageCode = "en-us"
 title = "My New Hugo Site"
+disableKinds = ["taxonomy","taxonomyTerms"]
+
+[frontmatter]
+    date = ["date","publishDate", "lastmod"]
+    lastmod = ["lastmod", "date","publishDate"]
+
+
+[params]
+    appname = "Rightpoint Design System"
+    appshortname = "RPDS"
+    appthemecolor = "#ffffff"
+    appbackgroundcolor = "#ffffff"
+    msapptilecolor = "#da532c"
+
+[taxonomies]
+  category = ""
+  series = "series"
+  tag = ""
+
+# [mediaTypes]
+#     [mediaTypes."text/webmanifest"]
+#         suffixes = ["webmanifest"]
+
+# [outputFormats]
+#     [outputFormats.webmanifest]
+#         baseName = "site"
+#         isPlainText = true
+#         mediaType = "text/webmanifest"
+
+# [outputs]
+#     home = ["HTML","WEBMANIFEST"]
+
+
+
