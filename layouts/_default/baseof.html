@@ -4,9 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Testing Hugo</title>
-    <link rel="stylesheet" href="/css/style.css">
-    {{/*  {{ partial "testing-favicon-generation.html" . }}  */}}
+    <title>{{.Title}}</title>
+    {{ partial "stylesheets.html" . }}
 </head>
 <body>
     <div id="content">
@@ -14,5 +13,6 @@
 
         {{ end }}
     </div>
+    <script src="/js/script.js"></script> 
 </body>
 </html>

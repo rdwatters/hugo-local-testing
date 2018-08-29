@@ -1,12 +1,4 @@
 {{ define "main" }}
-<h1>{{.Title}}</h1>
-<p><strong>{{ .Date.IsZero }}</strong></p>
-<p><strong>{{ isset .Params "date" }}</strong></p>
-{{.Content}}
-
-<ul>
-    {{range .Site.Pages }}
-    <li><a href="{{.Permalink}}">{{with .Title}}{{.}}{{else}}No Title Set{{end}}</a></li>
-    {{ end }}
-</ul>
+<h1 class="page-title">{{.Title}}</h1>
+<div id="viewport"></div>
 {{ end }}

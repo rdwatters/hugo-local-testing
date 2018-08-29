@@ -1,7 +1,5 @@
 {{ define "main" }}
 <p><strong>Using layouts/_default/single.html</strong></p>
 {{/*  Note that the following will not work if the context "." is passed into it.  */}}
-{{ partial "headline.html" (dict "headline" "title passed in through dict" "subtitle" "subtitle passed in through dict")}}
-{{/*  {{ partial "headline.html" . }}  */}}
 {{.Content}}
 {{ end }}

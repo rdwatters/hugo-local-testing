@@ -14,6 +14,10 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     appthemecolor = "#ffffff"
     appbackgroundcolor = "#ffffff"
     msapptilecolor = "#da532c"
+    mqsmall = "360px"
+    mqmedium = "640px"
+    mqlarge = "960px"
+    mqextralarge = "1440px"
 
 # [taxonomies]
 #   category = ""

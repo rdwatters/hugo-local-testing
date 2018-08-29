@@ -1,5 +1,7 @@
 ---
-title: Homepage Title
+title: Hugo Testing
+subtitle: 
+partial: "components/headline.html"
 date: 2018-08-10
 publishdate: 2018-08-10
 lastmod: 2018-08-10

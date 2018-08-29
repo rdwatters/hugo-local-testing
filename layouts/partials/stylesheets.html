@@ -1,0 +1,4 @@
+{{ $cssOpts := (dict "targetPath" "css/style.min.css" "enableSourceMap" true ) }}
+{{ $templateSCSS := resources.Get "scss/abstracts/_breakpoints.scss" }}
+{{ $styles := $templateSCSS | resources.ExecuteAsTemplate “style.scss” . | toCSS $cssOpts }}
+<link rel="stylesheet" href="{{ $styles.Permalink }}" media="screen">
